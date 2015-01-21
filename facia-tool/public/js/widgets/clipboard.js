@@ -1,11 +1,12 @@
-/* global _ */
 define([
     'knockout',
+    'underscore',
     'models/group',
     'utils/mediator',
     'utils/update-scrollables'
 ], function (
     ko,
+    _,
     Group,
     mediator,
     updateScrollables

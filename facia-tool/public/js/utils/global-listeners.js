@@ -1,6 +1,8 @@
 define([
+    'jquery',
     'EventEmitter'
 ], function (
+    $,
     EventEmitter
 ) {
     var bus = new EventEmitter(),

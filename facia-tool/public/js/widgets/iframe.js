@@ -1,8 +1,9 @@
-/* globals _ */
 define([
-    'knockout'
+    'knockout',
+    'underscore'
 ], function (
-    ko
+    ko,
+    _
 ) {
     function IFrame (params) {
         var url = _.isFunction(params.src) ? params.src() : params.src;

@@ -1,7 +1,8 @@
-/* global _: true */
 define([
+    'underscore',
     'modules/vars'
 ], function(
+    _,
     vars
 ) {
     var storage = window.localStorage,
