@@ -53,6 +53,7 @@ define([
                 alert(ex.message);
                 return;
             }
+            console.log(targetGroup);
 
             event.preventDefault();
             event.stopPropagation();
